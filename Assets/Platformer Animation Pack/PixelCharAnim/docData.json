@@ -1,0 +1,1071 @@
+{
+  "name": "PixelCharAnim",
+  "palette": {
+    "colors": {
+      "0": "ffeeeeee",
+      "1": "ffdddddd",
+      "2": "ffcccccc",
+      "3": "ffbbbbbb",
+      "4": "ff33ff99",
+      "5": "ff00bb00",
+      "6": "ff339966",
+      "7": "ff336666",
+      "8": "ffffffff",
+      "9": "ffffff00",
+      "10": "ffff6600",
+      "11": "ffdd0000",
+      "12": "ffaaaaaa",
+      "13": "ff888888",
+      "14": "ff777777",
+      "15": "ff555555",
+      "16": "ff99ffff",
+      "17": "ff0099ff",
+      "18": "ff0000dd",
+      "19": "ff330099",
+      "20": "ffff0099",
+      "21": "ff0000cc",
+      "22": "ff444444",
+      "23": "ff222222",
+      "24": "ff111111",
+      "25": "ffccccff",
+      "26": "ff9999ff",
+      "27": "ff6666cc",
+      "28": "ff333366",
+      "29": "ff00aa00",
+      "30": "ff006600",
+      "31": "ff663300",
+      "32": "ff996633",
+      "33": "ffff6633",
+      "34": "ffcc9966",
+      "35": "ffffcc99",
+      "36": "ffffffcc",
+      "37": "ffff66cc",
+      "38": "ff990066",
+      "39": "ff996699",
+      "40": "ff000000",
+      "41": null,
+      "42": null,
+      "43": null,
+      "44": null,
+      "45": null,
+      "46": null,
+      "47": null,
+      "48": null,
+      "49": null,
+      "50": null,
+      "51": null,
+      "52": null,
+      "53": null,
+      "54": null,
+      "55": null,
+      "56": null,
+      "57": null,
+      "58": null,
+      "59": null,
+      "60": null,
+      "61": null,
+      "62": null,
+      "63": null,
+      "64": null,
+      "65": null,
+      "66": null,
+      "67": null,
+      "68": null,
+      "69": null,
+      "70": null,
+      "71": null,
+      "72": null,
+      "73": null,
+      "74": null,
+      "75": null,
+      "76": null,
+      "77": null,
+      "78": null,
+      "79": null,
+      "80": null,
+      "81": null,
+      "82": null,
+      "83": null,
+      "84": null,
+      "85": null,
+      "86": null,
+      "87": null,
+      "88": null,
+      "89": null,
+      "90": null,
+      "91": null,
+      "92": null,
+      "93": null,
+      "94": null,
+      "95": null,
+      "96": null,
+      "97": null,
+      "98": null,
+      "99": null,
+      "100": null,
+      "101": null,
+      "102": null,
+      "103": null,
+      "104": null,
+      "105": null,
+      "106": null,
+      "107": null,
+      "108": null,
+      "109": null,
+      "110": null,
+      "111": null,
+      "112": null,
+      "113": null,
+      "114": null,
+      "115": null,
+      "116": null,
+      "117": null,
+      "118": null,
+      "119": null
+    },
+    "numColors": 120,
+    "width": 12,
+    "height": 10
+  },
+  "animations": {
+    "0": {
+      "frameDurationMultipliers": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "frameDuration": 200,
+      "name": "Plain_idle",
+      "length": 4,
+      "baseTile": 0
+    },
+    "1": {
+      "frameDurationMultipliers": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "frameDuration": 100,
+      "name": "Plain_jump",
+      "length": 6,
+      "baseTile": 24
+    },
+    "2": {
+      "frameDurationMultipliers": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "frameDuration": 100,
+      "name": "Plain_run",
+      "length": 6,
+      "baseTile": 6
+    },
+    "3": {
+      "frameDurationMultipliers": [
+        100,
+        100
+      ],
+      "frameDuration": 100,
+      "name": "Plain_slide",
+      "length": 2,
+      "baseTile": 36
+    },
+    "4": {
+      "frameDurationMultipliers": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "frameDuration": 100,
+      "name": "Plain_ladder",
+      "length": 4,
+      "baseTile": 102
+    },
+    "5": {
+      "frameDurationMultipliers": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "frameDuration": 100,
+      "name": "Plain_crouchWalk",
+      "length": 6,
+      "baseTile": 84
+    },
+    "6": {
+      "frameDurationMultipliers": [
+        100,
+        100
+      ],
+      "frameDuration": 100,
+      "name": "Plain_wallRide",
+      "length": 2,
+      "baseTile": 78
+    },
+    "7": {
+      "frameDurationMultipliers": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "frameDuration": 100,
+      "name": "Plain_death",
+      "length": 6,
+      "baseTile": 108
+    },
+    "8": {
+      "frameDurationMultipliers": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "frameDuration": 200,
+      "name": "Sword_idle",
+      "length": 4,
+      "baseTile": 42
+    },
+    "9": {
+      "frameDurationMultipliers": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "frameDuration": 100,
+      "name": "Sword_run",
+      "length": 6,
+      "baseTile": 48
+    },
+    "10": {
+      "frameDurationMultipliers": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "frameDuration": 100,
+      "name": "Sword_jump",
+      "length": 6,
+      "baseTile": 72
+    },
+    "11": {
+      "frameDurationMultipliers": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "frameDuration": 100,
+      "name": "Sword_crouchWalk",
+      "length": 6,
+      "baseTile": 96
+    },
+    "12": {
+      "frameDurationMultipliers": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "frameDuration": 100,
+      "name": "Sword_quickAtk",
+      "length": 4,
+      "baseTile": 66
+    },
+    "13": {
+      "frameDurationMultipliers": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "frameDuration": 100,
+      "name": "Sword_mediumAtk",
+      "length": 4,
+      "baseTile": 54
+    },
+    "14": {
+      "frameDurationMultipliers": [
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "frameDuration": 100,
+      "name": "Sword_heavyAtk",
+      "length": 5,
+      "baseTile": 60
+    },
+    "15": {
+      "frameDurationMultipliers": [
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "frameDuration": 100,
+      "name": "Sword_jumpAtk",
+      "length": 5,
+      "baseTile": 126
+    },
+    "16": {
+      "frameDurationMultipliers": [
+        100,
+        100,
+        100
+      ],
+      "frameDuration": 100,
+      "name": "Sword_slideAtk",
+      "length": 3,
+      "baseTile": 132
+    },
+    "17": {
+      "frameDurationMultipliers": [
+        100,
+        100
+      ],
+      "frameDuration": 100,
+      "name": "Sword_wallRide",
+      "length": 2,
+      "baseTile": 82
+    },
+    "18": {
+      "frameDurationMultipliers": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "frameDuration": 100,
+      "name": "Sword_death",
+      "length": 6,
+      "baseTile": 114
+    },
+    "19": {
+      "frameDurationMultipliers": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "frameDuration": 200,
+      "name": "Gun_idle",
+      "length": 4,
+      "baseTile": 18
+    },
+    "20": {
+      "frameDurationMultipliers": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "frameDuration": 100,
+      "name": "Gun_run",
+      "length": 6,
+      "baseTile": 12
+    },
+    "21": {
+      "frameDurationMultipliers": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "frameDuration": 100,
+      "name": "Gun_jump",
+      "length": 6,
+      "baseTile": 30
+    },
+    "22": {
+      "frameDurationMultipliers": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "frameDuration": 100,
+      "name": "Gun_crouchWalk",
+      "length": 6,
+      "baseTile": 90
+    },
+    "23": {
+      "frameDurationMultipliers": [
+        100,
+        100
+      ],
+      "frameDuration": 100,
+      "name": "Gun_wallRide",
+      "length": 2,
+      "baseTile": 80
+    },
+    "24": {
+      "frameDurationMultipliers": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "frameDuration": 100,
+      "name": "Gun_death",
+      "length": 6,
+      "baseTile": 120
+    }
+  },
+  "version": "0.3.108",
+  "tileset": {
+    "tileHeight": 32,
+    "tilesWide": 6,
+    "fixedWidth": true,
+    "numTiles": 135,
+    "tileWidth": 32
+  },
+  "canvas": {
+    "tileWidth": 32,
+    "tileHeight": 32,
+    "layers": {
+      "0": {
+        "blendMode": "normal",
+        "tileRefs": {
+          "0": {
+            "flipX": false,
+            "rot": 0,
+            "index": 0
+          },
+          "1": {
+            "flipX": false,
+            "rot": 0,
+            "index": 1
+          },
+          "2": {
+            "flipX": false,
+            "rot": 0,
+            "index": 2
+          },
+          "3": {
+            "flipX": false,
+            "rot": 0,
+            "index": 3
+          },
+          "6": {
+            "flipX": false,
+            "rot": 0,
+            "index": 6
+          },
+          "7": {
+            "flipX": false,
+            "rot": 0,
+            "index": 7
+          },
+          "8": {
+            "flipX": false,
+            "rot": 0,
+            "index": 8
+          },
+          "9": {
+            "flipX": false,
+            "rot": 0,
+            "index": 9
+          },
+          "10": {
+            "flipX": false,
+            "rot": 0,
+            "index": 10
+          },
+          "11": {
+            "flipX": false,
+            "rot": 0,
+            "index": 11
+          },
+          "12": {
+            "flipX": false,
+            "rot": 0,
+            "index": 12
+          },
+          "13": {
+            "flipX": false,
+            "rot": 0,
+            "index": 13
+          },
+          "14": {
+            "flipX": false,
+            "rot": 0,
+            "index": 14
+          },
+          "15": {
+            "flipX": false,
+            "rot": 0,
+            "index": 15
+          },
+          "16": {
+            "flipX": false,
+            "rot": 0,
+            "index": 16
+          },
+          "17": {
+            "flipX": false,
+            "rot": 0,
+            "index": 17
+          },
+          "18": {
+            "flipX": false,
+            "rot": 0,
+            "index": 18
+          },
+          "19": {
+            "flipX": false,
+            "rot": 0,
+            "index": 19
+          },
+          "20": {
+            "flipX": false,
+            "rot": 0,
+            "index": 20
+          },
+          "21": {
+            "flipX": false,
+            "rot": 0,
+            "index": 21
+          },
+          "24": {
+            "flipX": false,
+            "rot": 0,
+            "index": 24
+          },
+          "25": {
+            "flipX": false,
+            "rot": 0,
+            "index": 25
+          },
+          "26": {
+            "flipX": false,
+            "rot": 0,
+            "index": 26
+          },
+          "27": {
+            "flipX": false,
+            "rot": 0,
+            "index": 27
+          },
+          "28": {
+            "flipX": false,
+            "rot": 0,
+            "index": 28
+          },
+          "29": {
+            "flipX": false,
+            "rot": 0,
+            "index": 29
+          },
+          "30": {
+            "flipX": false,
+            "rot": 0,
+            "index": 30
+          },
+          "31": {
+            "flipX": false,
+            "rot": 0,
+            "index": 31
+          },
+          "32": {
+            "flipX": false,
+            "rot": 0,
+            "index": 32
+          },
+          "33": {
+            "flipX": false,
+            "rot": 0,
+            "index": 33
+          },
+          "34": {
+            "flipX": false,
+            "rot": 0,
+            "index": 34
+          },
+          "35": {
+            "flipX": false,
+            "rot": 0,
+            "index": 35
+          },
+          "36": {
+            "flipX": false,
+            "rot": 0,
+            "index": 36
+          },
+          "37": {
+            "flipX": false,
+            "rot": 0,
+            "index": 37
+          },
+          "42": {
+            "flipX": false,
+            "rot": 0,
+            "index": 42
+          },
+          "43": {
+            "flipX": false,
+            "rot": 0,
+            "index": 43
+          },
+          "44": {
+            "flipX": false,
+            "rot": 0,
+            "index": 44
+          },
+          "45": {
+            "flipX": false,
+            "rot": 0,
+            "index": 45
+          },
+          "48": {
+            "flipX": false,
+            "rot": 0,
+            "index": 48
+          },
+          "49": {
+            "flipX": false,
+            "rot": 0,
+            "index": 49
+          },
+          "50": {
+            "flipX": false,
+            "rot": 0,
+            "index": 50
+          },
+          "51": {
+            "flipX": false,
+            "rot": 0,
+            "index": 51
+          },
+          "52": {
+            "flipX": false,
+            "rot": 0,
+            "index": 52
+          },
+          "53": {
+            "flipX": false,
+            "rot": 0,
+            "index": 53
+          },
+          "54": {
+            "flipX": false,
+            "rot": 0,
+            "index": 54
+          },
+          "55": {
+            "flipX": false,
+            "rot": 0,
+            "index": 55
+          },
+          "56": {
+            "flipX": false,
+            "rot": 0,
+            "index": 56
+          },
+          "57": {
+            "flipX": false,
+            "rot": 0,
+            "index": 57
+          },
+          "60": {
+            "flipX": false,
+            "rot": 0,
+            "index": 60
+          },
+          "61": {
+            "flipX": false,
+            "rot": 0,
+            "index": 61
+          },
+          "62": {
+            "flipX": false,
+            "rot": 0,
+            "index": 62
+          },
+          "63": {
+            "flipX": false,
+            "rot": 0,
+            "index": 63
+          },
+          "64": {
+            "flipX": false,
+            "rot": 0,
+            "index": 64
+          },
+          "66": {
+            "flipX": false,
+            "rot": 0,
+            "index": 66
+          },
+          "67": {
+            "flipX": false,
+            "rot": 0,
+            "index": 67
+          },
+          "68": {
+            "flipX": false,
+            "rot": 0,
+            "index": 68
+          },
+          "69": {
+            "flipX": false,
+            "rot": 0,
+            "index": 69
+          },
+          "72": {
+            "flipX": false,
+            "rot": 0,
+            "index": 72
+          },
+          "73": {
+            "flipX": false,
+            "rot": 0,
+            "index": 73
+          },
+          "74": {
+            "flipX": false,
+            "rot": 0,
+            "index": 74
+          },
+          "75": {
+            "flipX": false,
+            "rot": 0,
+            "index": 75
+          },
+          "76": {
+            "flipX": false,
+            "rot": 0,
+            "index": 76
+          },
+          "77": {
+            "flipX": false,
+            "rot": 0,
+            "index": 77
+          },
+          "78": {
+            "flipX": false,
+            "rot": 0,
+            "index": 78
+          },
+          "79": {
+            "flipX": false,
+            "rot": 0,
+            "index": 79
+          },
+          "80": {
+            "flipX": false,
+            "rot": 0,
+            "index": 80
+          },
+          "81": {
+            "flipX": false,
+            "rot": 0,
+            "index": 81
+          },
+          "82": {
+            "flipX": false,
+            "rot": 0,
+            "index": 82
+          },
+          "83": {
+            "flipX": false,
+            "rot": 0,
+            "index": 83
+          },
+          "84": {
+            "flipX": false,
+            "rot": 0,
+            "index": 84
+          },
+          "85": {
+            "flipX": false,
+            "rot": 0,
+            "index": 85
+          },
+          "86": {
+            "flipX": false,
+            "rot": 0,
+            "index": 86
+          },
+          "87": {
+            "flipX": false,
+            "rot": 0,
+            "index": 87
+          },
+          "88": {
+            "flipX": false,
+            "rot": 0,
+            "index": 88
+          },
+          "89": {
+            "flipX": false,
+            "rot": 0,
+            "index": 89
+          },
+          "90": {
+            "flipX": false,
+            "rot": 0,
+            "index": 90
+          },
+          "91": {
+            "flipX": false,
+            "rot": 0,
+            "index": 91
+          },
+          "92": {
+            "flipX": false,
+            "rot": 0,
+            "index": 92
+          },
+          "93": {
+            "flipX": false,
+            "rot": 0,
+            "index": 93
+          },
+          "94": {
+            "flipX": false,
+            "rot": 0,
+            "index": 94
+          },
+          "95": {
+            "flipX": false,
+            "rot": 0,
+            "index": 95
+          },
+          "96": {
+            "flipX": false,
+            "rot": 0,
+            "index": 96
+          },
+          "97": {
+            "flipX": false,
+            "rot": 0,
+            "index": 97
+          },
+          "98": {
+            "flipX": false,
+            "rot": 0,
+            "index": 98
+          },
+          "99": {
+            "flipX": false,
+            "rot": 0,
+            "index": 99
+          },
+          "100": {
+            "flipX": false,
+            "rot": 0,
+            "index": 100
+          },
+          "101": {
+            "flipX": false,
+            "rot": 0,
+            "index": 101
+          },
+          "102": {
+            "flipX": false,
+            "rot": 0,
+            "index": 102
+          },
+          "103": {
+            "flipX": false,
+            "rot": 0,
+            "index": 103
+          },
+          "104": {
+            "flipX": false,
+            "rot": 0,
+            "index": 104
+          },
+          "105": {
+            "flipX": false,
+            "rot": 0,
+            "index": 105
+          },
+          "108": {
+            "flipX": false,
+            "rot": 0,
+            "index": 108
+          },
+          "109": {
+            "flipX": false,
+            "rot": 0,
+            "index": 109
+          },
+          "110": {
+            "flipX": false,
+            "rot": 0,
+            "index": 110
+          },
+          "111": {
+            "flipX": false,
+            "rot": 0,
+            "index": 111
+          },
+          "112": {
+            "flipX": false,
+            "rot": 0,
+            "index": 112
+          },
+          "113": {
+            "flipX": false,
+            "rot": 0,
+            "index": 113
+          },
+          "114": {
+            "flipX": false,
+            "rot": 0,
+            "index": 114
+          },
+          "115": {
+            "flipX": false,
+            "rot": 0,
+            "index": 115
+          },
+          "116": {
+            "flipX": false,
+            "rot": 0,
+            "index": 116
+          },
+          "117": {
+            "flipX": false,
+            "rot": 0,
+            "index": 117
+          },
+          "118": {
+            "flipX": false,
+            "rot": 0,
+            "index": 118
+          },
+          "119": {
+            "flipX": false,
+            "rot": 0,
+            "index": 119
+          },
+          "120": {
+            "flipX": false,
+            "rot": 0,
+            "index": 120
+          },
+          "121": {
+            "flipX": false,
+            "rot": 0,
+            "index": 121
+          },
+          "122": {
+            "flipX": false,
+            "rot": 0,
+            "index": 122
+          },
+          "123": {
+            "flipX": false,
+            "rot": 0,
+            "index": 123
+          },
+          "124": {
+            "flipX": false,
+            "rot": 0,
+            "index": 124
+          },
+          "125": {
+            "flipX": false,
+            "rot": 0,
+            "index": 125
+          },
+          "126": {
+            "flipX": false,
+            "rot": 0,
+            "index": 126
+          },
+          "127": {
+            "flipX": false,
+            "rot": 0,
+            "index": 127
+          },
+          "128": {
+            "flipX": false,
+            "rot": 0,
+            "index": 128
+          },
+          "129": {
+            "flipX": false,
+            "rot": 0,
+            "index": 129
+          },
+          "130": {
+            "flipX": false,
+            "rot": 0,
+            "index": 130
+          },
+          "132": {
+            "flipX": false,
+            "rot": 0,
+            "index": 132
+          },
+          "133": {
+            "flipX": false,
+            "rot": 0,
+            "index": 134
+          },
+          "134": {
+            "flipX": false,
+            "rot": 0,
+            "index": 133
+          },
+          "137": {
+            "flipX": false,
+            "rot": 0,
+            "index": 5
+          }
+        },
+        "name": "Layer 1",
+        "alpha": 255,
+        "hidden": false
+      },
+      "1": {
+        "blendMode": "normal",
+        "tileRefs": {},
+        "name": "Layer 0",
+        "alpha": 255,
+        "hidden": true
+      }
+    },
+    "numLayers": 2,
+    "width": 192,
+    "height": 768
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "version": "0.3.108",
+  "name": "Examples",
+  "canvas": {
+    "numLayers": 2,
+    "tileHeight": 32,
+    "tileWidth": 32,
+    "layers": {
+      "0": {
+        "blendMode": "normal",
+        "tileRefs": {
+          "0": {
+            "flipX": false,
+            "index": 0,
+            "rot": 0
+          },
+          "1": {
+            "flipX": false,
+            "index": 1,
+            "rot": 0
+          },
+          "2": {
+            "flipX": false,
+            "index": 2,
+            "rot": 0
+          },
+          "3": {
+            "flipX": false,
+            "index": 3,
+            "rot": 0
+          },
+          "4": {
+            "flipX": false,
+            "index": 4,
+            "rot": 0
+          },
+          "5": {
+            "flipX": false,
+            "index": 5,
+            "rot": 0
+          }
+        },
+        "alpha": 255,
+        "name": "Layer 0",
+        "hidden": false
+      },
+      "1": {
+        "blendMode": "normal",
+        "tileRefs": {},
+        "alpha": 255,
+        "name": "Layer 1",
+        "hidden": false
+      }
+    },
+    "width": 256,
+    "height": 256
+  },
+  "animations": {},
+  "tileset": {
+    "tileWidth": 32,
+    "tileHeight": 32,
+    "tilesWide": 8,
+    "fixedWidth": true,
+    "numTiles": 6
+  },
+  "palette": {
+    "colors": {
+      "0": "ff141414",
+      "1": "ff282426",
+      "2": "fffcd0a3",
+      "3": "fffefaf4",
+      "4": "fff7948a",
+      "5": "ffe5955e",
+      "6": "fff8cf0f",
+      "7": "ffa1db79",
+      "8": "ff4db4dd",
+      "9": "ffd9b7cb",
+      "10": "ffbfbab3",
+      "11": "ffbc6c38",
+      "12": "ffef973d",
+      "13": "ffda573c",
+      "14": "ff37aa42",
+      "15": "ffad8eb3",
+      "16": "ff928e85",
+      "17": "ffa73143",
+      "18": "ff8f4833",
+      "19": "ff2e7848",
+      "20": "ff3f5fcc",
+      "21": "ff7f6396",
+      "22": "ff676563",
+      "23": "ff683030",
+      "24": "ff344741",
+      "25": "ff474274",
+      "26": null,
+      "27": null,
+      "28": null,
+      "29": null,
+      "30": null,
+      "31": null,
+      "32": null,
+      "33": null,
+      "34": null,
+      "35": null,
+      "36": null,
+      "37": null,
+      "38": null,
+      "39": null,
+      "40": null,
+      "41": null,
+      "42": null,
+      "43": null,
+      "44": null,
+      "45": null,
+      "46": null,
+      "47": null,
+      "48": null,
+      "49": null,
+      "50": null,
+      "51": null,
+      "52": null,
+      "53": null,
+      "54": null,
+      "55": null,
+      "56": null,
+      "57": null,
+      "58": null,
+      "59": null,
+      "60": null,
+      "61": null,
+      "62": null,
+      "63": null,
+      "64": null,
+      "65": null,
+      "66": null,
+      "67": null,
+      "68": null,
+      "69": null,
+      "70": null,
+      "71": null
+    },
+    "width": 12,
+    "numColors": 72,
+    "height": 6
+  }
+}
